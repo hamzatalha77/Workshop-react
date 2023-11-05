@@ -13,8 +13,8 @@ import image1 from '../../images/logoImages/image 1.png'
 import image2 from '../../images/logoImages/Vector.png'
 import image3 from '../../images/logoImages/Vector2.png'
 const userPool = new CognitoUserPool({
-  UserPoolId: 'us-east-1_O8gA5ZaTv',
-  ClientId: '1n1jgrn82911jh6131beunqjdi'
+  UserPoolId: 'us-east-1_XlhOAwEkN',
+  ClientId: 'cvjfesk3p6i393gsg5rv3i2gr'
 })
 export default function SignIn() {
   const navigate = useNavigate()
