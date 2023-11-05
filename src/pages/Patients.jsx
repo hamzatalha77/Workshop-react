@@ -1,22 +1,20 @@
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+import combined_shape_2x from '../images/patientsImages/combined-shape-1@2x.png'
+import mask_copy_2x from '../images/patientsImages/mask-copy-1@2x.png'
+import path_94_2x from '../images/patientsImages/path-94-1@2x.png'
+import boy1 from '../images/patientsImages/boy-1@2x.png'
+import girl1 from '../images/patientsImages/girl-16-1@2x.png'
+import boy2 from '../images/patientsImages/boy-22-1@2x.png'
+import girl2 from '../images/patientsImages/girl-12-1@2x.png'
+import pagination_first from '../images/patientsImages/icon---pagination---first-1@2x.png'
+import pagination_prev from '../images/patientsImages/icon---pagination---prev-1@2x.png'
+import pagination_next from '../images/patientsImages/icon---pagination---next-1@2x.png'
+import pagination_last from '../images/patientsImages/icon---pagination---last-1@2x.png'
 
-
-import React from "react";
-import { NavLink } from "react-router-dom";
-import combined_shape_2x from "../images/patientsImages/combined-shape-1@2x.png";
-import mask_copy_2x from "../images/patientsImages/mask-copy-1@2x.png";
-import path_94_2x from "../images/patientsImages/path-94-1@2x.png";
-import boy1 from "../images/patientsImages/boy-1@2x.png";
-import girl1 from "../images/patientsImages/girl-16-1@2x.png";
-import boy2 from "../images/patientsImages/boy-22-1@2x.png";
-import girl2 from "../images/patientsImages/girl-12-1@2x.png";
-import pagination_first from "../images/patientsImages/icon---pagination---first-1@2x.png";
-import pagination_prev from "../images/patientsImages/icon---pagination---prev-1@2x.png";
-import pagination_next from "../images/patientsImages/icon---pagination---next-1@2x.png";
-import pagination_last from "../images/patientsImages/icon---pagination---last-1@2x.png";
-
-
-const ActiveNavLink = NavLink;
+const ActiveNavLink = NavLink
 function Patients() {
+
     return <div> 
     <div className="relative p-4 flex items-center justify-between"> 
       <div>
