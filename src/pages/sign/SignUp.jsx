@@ -116,6 +116,13 @@ export default function SignUp() {
           <div className="w-full flex justify-center my-1">
             <h3 className="text-black text-[9px] font-normal"> Or </h3>
           </div>
+          <div className="w-full">
+            <Link to="/SignIn">
+              <button className="bg-[#DCDCDC] text-black text-[9px] p-2 w-full rounded font-bold">
+                Sign in
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
