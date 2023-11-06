@@ -28,14 +28,6 @@ export default function SignUp() {
         Name: 'email',
         Value: email
       })
-      // new CognitoUserAttribute({
-      //     Name: "email",
-      //     Value: name,
-      // }),
-      // new CognitoUserAttribute({
-      //     Name: "custom:telnum",
-      //     Value: values.telnum,
-      // }),
     ]
     userPool.signUp(name, password, attributeList, null, (err, result) => {
       if (err) {
